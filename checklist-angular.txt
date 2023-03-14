@@ -1,0 +1,4 @@
+instala o NodeJs (nodejs.org)
+npm --version (check do nodejs instalado)
+instalar o angular (https://angular.io/guide/setup-local)
+ng version (check angular instalado)
