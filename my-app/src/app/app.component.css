@@ -1,0 +1,14 @@
+.container {
+    background: linear-gradient(rgb(56, 196, 189), #f3a, rgb(241, 233, 238));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.img {
+    width: 700px;
+    height: 700px;
+}
+
