@@ -12,3 +12,19 @@
     height: 700px;
 }
 
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc input{
+    width: 35px;
+    min-height: 35px;
+    margin: 8px;
+    outline: none;
+    background: #453c79;
+    font-size: 18px  ;
+
+}
+

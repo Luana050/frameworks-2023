@@ -10,5 +10,19 @@ ng version (check angular instalado)
 3. se verde -> git commit -m "nome do commit"
 4. se td ok! git push (atualiza no github)
 
+5. git clone endereço.git . (comando para copiar do github para o local)
+5.1 npm install (dentro da pasta do projeto para instalar node_modules)
+
+----------- PARA REMOVER USUÁRIO ANTERIOR ----------
+git config --system --unset credencial.helper
+
 # ----------------- angular
-ng new nome-projeto (criar um projeto)
+1.ng new nome-projeto (criar um projeto)
+2.ng serve -o (rodar e abrir o projeto - precisa estar dentro da pasta do projeto)
+
+Qual o primeiro arquivo a ser executado?
+R: index.html dentro de src
+
+ criando um componente vem 4 arquivos
+ um html, um css, um spec.ts e um ts
+
