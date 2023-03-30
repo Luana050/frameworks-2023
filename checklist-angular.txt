@@ -11,10 +11,14 @@ ng version (check angular instalado)
 4. se td ok! git push (atualiza no github)
 
 5. git clone endereço.git . (comando para copiar do github para o local)
+5. cd my-app
 5.1 npm install (dentro da pasta do projeto para instalar node_modules)
 
 ----------- PARA REMOVER USUÁRIO ANTERIOR ----------
 git config --system --unset credencial.helper
+
+git config --global user.neme "luana"
+git config --global user.email "emaildogi@"
 
 # ----------------- angular
 1.ng new nome-projeto (criar um projeto)
