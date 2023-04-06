@@ -3,12 +3,18 @@
     <h2>Sing In</h2>
 
     <div *ngIf="isError" class="error">
-        <i class='bx bx-error-alt'></i>
+        <i class='bx bx-error'></i>
         <span>User or password incorrect!</span>
     </div>
+
+    <div *ngIf="isAprovado" class="isAprovado">
+      <i class='bx bx-error'></i>
+      <span>Login or password correct!</span>
+  </div>
+
     <div class="input">
       <i class="bx bx-envelope-open"></i>
-      <input type="text" name="email" id="email" placeholder="E-mail" />
+      <input type="text" name="email" id="email" placeholder="E-mail" [(ngModel)]="user" />
     </div>
 
     <div class="input">
@@ -18,6 +24,7 @@
         name="password"
         id="password"
         placeholder="password"
+        [(ngModel)]="pwd"
       />
       <i class="bx bx-low-vision"></i>
     </div>
@@ -34,3 +41,4 @@
     <h3>Don't have an account? Create</h3>
   </div>
 </div>
+

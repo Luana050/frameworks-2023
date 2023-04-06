@@ -98,6 +98,23 @@ button:hover {
   align-items: center;
 }
 
+.isAprovado {
+  border: 2px solid rgb(20, 150, 27);
+  margin-top: 5px;
+  width: 280px;
+  background: rgb(123, 224, 191);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
 .error i {
   margin-right: 5px;
 }
+
+span {
+  color: black;
+  font-size: 15px;
+}
+
+
