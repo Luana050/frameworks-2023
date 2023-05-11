@@ -167,6 +167,45 @@
 
 }
 
+.container .user {
+  display: grid;
+  grid-template-rows: 100px 180px 120px 1fr;
+  gap: 10px;
+}
+
+.container .user div {
+  background: #43af74;
+}
+
+.container .user .item1 {
+  display: flex;
+  justify-content: end;  
+  padding-right: 35px;
+  align-items: center;
+
+  
+}
+
+.container .user .item1 i {
+  font-size: 25px;
+  color: #464646;
+  margin: 0 10px;
+
+}
+
+  .container .user .item2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container .user .item2 img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+
 .menu li:hover {
   background: rgb(70, 188, 224);
 }
