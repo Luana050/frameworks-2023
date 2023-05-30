@@ -1,0 +1,6 @@
+.container {
+background: cornflowerblue;
+height: 100vh;
+display: flex;
+grid-template-columns: 1fr 1fr;
+}

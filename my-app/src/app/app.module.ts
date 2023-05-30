@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { GridComponent } from './component/grid/grid.component';
 import { PagenotFoundComponent } from './component/pagenot-found/pagenot-found.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { TaskComponent } from './components/task/task.component';
+import { UserComponent } from './components/user/user.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     LoginComponent,
     GridComponent,
     PagenotFoundComponent,
-    DashboardComponent
+    DashboardComponent,
+    TaskComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
