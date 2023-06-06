@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-task',
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class TaskComponent {
 
+  taks = []
+
+  task = new FormControl('')
+  descricao = new FormControl('')
+  responsavel = new FormControl('')
+  dt_inicio = new FormControl('')
+  dt_fim = new FormControl('')
+
+  addTask() {
+    console.log(this.task)
+  }
 }

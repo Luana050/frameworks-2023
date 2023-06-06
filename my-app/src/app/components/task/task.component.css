@@ -1,3 +1,9 @@
+@import url('https://pt.pngtree.com/freebackground/modern-double-color-futuristic-neon-background_1181573.html');
+
+*{
+    font-family: 'poppins' , sans-serif;
+    text-decoration: none;
+}
 .container {
 background: cornflowerblue;
 height: 100vh;
@@ -6,6 +12,9 @@ grid-template-columns: 1fr 1fr;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+background-image: url(https://cf.shopee.com.br/file/81b17db9ee02018df2b5dd55c8b69318);
+
+
 }
 
 .task {
@@ -17,5 +26,38 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    background: linear-gradient(60deg,rgb(247, 168, 181), rgb(252, 245, 245));
+    margin: 50px;
+    box-shadow: 3px 10px 10px 5px rgb(248, 133, 129);
 }
 
+button {
+    width: 170px;
+    height: 35px;
+    border-radius: 15px;
+    background: rgb(240, 83, 174);
+    box-shadow: 5px 5px 2px rgb(109, 22, 63);
+    border: 0;
+    color: antiquewhite;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    filter: brightness(140%);
+}
+
+.container .form-group {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+   
+
+}
+
+.container .form-group input{
+    margin: 10px;
+    padding: 7px;
+    border-radius: 5px;
+}

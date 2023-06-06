@@ -13,9 +13,7 @@ const routes: Routes = [
   {path: 'grid', component: GridComponent},
   {path: 'task', component: TaskComponent },
   {path: 'dashboard', component: DashboardComponent},
-    
-
-
+  
   {path: '', redirectTo: '/login', pathMatch: 'full'},
   {path: '**', component: PagenotFoundComponent},
 ];

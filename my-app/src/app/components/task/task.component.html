@@ -1,30 +1,34 @@
 <div class="container">
     <div class="task">
-        <h2>Forms</h2>
+        <h2>Formulário</h2>
    <form action="*">
       
     <div class="form-group">
         <label for="txtNome">Task</label>
-        <input type="text" name="txtNome"  id="txtNome" placeholder="Digite o nome da tarefa">
+        <input type="text" name="txtNome"  id="txtNome" placeholder="Digite o nome da tarefa"
+        [formControl]="task"/>
         
-        <label for="txtNome">Task</label>
-        <input type="text" name="txtNome"  id="txtNome" placeholder="Digite o nome da Descrição da tarefa">
+        <label for="txtNome">Descrição</label>
+        <input type="text" name="txtNome"  id="txtNome" placeholder="Digite a Descrição da tarefa"
+        [formControl]="descricao"/>
         
-        <label for="txtNome">Task</label>
-        <input type="text" name="txtNome"  id="txtNome" placeholder="Digite o nome do responsável da tarefa ">
+        <label for="txtNome">Responsável</label>
+        <input type="text" name="txtNome"  id="txtNome" placeholder="Digite o responsável da tarefa "
+        [formControl]="responsavel"/>
         
-        <input type="text" name="txtNome"  id="txtNome">
-        <label for="txtNome">Task</label>
+        <label for="txtNome">Data Inicio</label>
+        <input type="date" name="txtNome"  id="txtNome" [formControl]="dt_inicio"/>
         
-        <input type="text" name="txtNome"  id="txtNome">
-        <label for="txtNome">Task</label>
+        <label for="txtNome">Data Termino</label>
+        <input type="date" name="txtNome"  id="txtNome"  [formControl]="dt_fim"/>
         
-        <input type="text" name="txtNome"  id="txtNome">
-        <label for="txtNome">Task</label>
-        
-    <div></div>
-    <div class="Button"></div>
+    </div>    
+    
+    <div class="Button">
     <button>Cancelar</button>
-    <button>Cadastrar</button>
+    <button (clik)="addTask()">Cadastrar</button>
     </div>
+
+</form>
+</div>
 
