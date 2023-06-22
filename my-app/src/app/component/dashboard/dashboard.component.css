@@ -207,7 +207,7 @@ padding: 15px;
   background: #f7fbfd;
 }
 
-.content .adm .title {
+.content  .title {
   background: #e5f7f0;
   display: flex;
   align-items: center;
@@ -215,12 +215,12 @@ padding: 15px;
   border-radius: 5px;
 }
 
-.content .adm .title span {
+.content  .title span {
   font-size: 18px;
   font-weight: 600;
 }
 
-.content .adm .title .ball {
+.content  .title .ball {
   background: #43af74;
   border-radius: 50%;
   width: 30px;
@@ -231,7 +231,7 @@ padding: 15px;
   margin: 0 15px 0 25px;
 }
 
-.content .adm .title .ball i {
+.content  .title .ball i {
   color: #fff;
   font-size: 22px;
 

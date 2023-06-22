@@ -172,7 +172,17 @@
 
             </div>
             <div class="task">
-                <span>Adicionar Tarefa</span>
+                <div class="title" (click)="addTask()">
+                    <div class="ball">
+                    </div>
+
+                    
+                    <span>Adicionar novas Tarefas</span>
+                    <div *ngFor="let n of tasks">{{}}</div>
+    
+                    </div>
+
+                </div>
             </div>
 
 
